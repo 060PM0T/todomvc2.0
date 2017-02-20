@@ -1,0 +1,43 @@
+.header{
+	font-size: 24px;
+	text-align: center;
+}
+.searchInput {
+	width: 550px;
+    padding: 5px 8px;
+    font-size: 24px;
+    border: 1px solid #024e6a;
+    border-radius: 8px;
+    outline:none;
+}
+.nodeList{
+	position: relative;
+    bottom: 28px;
+	width: 550px;
+    font-size: 24px;
+    padding-left: 15px;
+    border: 1px solid #024e6a;
+    border-radius: 8px
+}
+.addNode {
+	position: relative;
+    bottom: 38px;
+    left: 568px;
+    color: #fff;
+    background: rgb(212,75,56);
+    padding: 10px 17px;
+    border-radius: 8px;
+}
+.hintList{
+	position: absolute;
+    top: 110px;
+    width: 550px;
+    padding: 5px 8px;
+	font-size: 24px;
+    border: 1px solid #024e6a;
+    border-radius: 8px;
+    background-color: white;
+}
+.hintList > div {
+    padding: 5px 10px
+}
