@@ -28,6 +28,9 @@ module.exports = function(options) {
     },
     "ts|tsx": {
       loaders: ['react-hot', 'ts-loader']
+    },
+    "png|jpg|gif": {
+      loaders:['file-loader']
     }
   };
 

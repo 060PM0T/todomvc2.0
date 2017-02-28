@@ -10,9 +10,9 @@ const initialState = {};
 
 const store: Store<any> = createStore(rootReducer, initialState);
 
-store.subscribe(() => {
-	console.log ('store', store.getState())
-})
+// store.subscribe(() => {
+// 	console.log ('store', store.getState())
+// })
 
 ReactDOM.render(
   <Provider store={store}>

@@ -1,4 +1,6 @@
+import { IArrayData } from './arrayData'
+
 export type IListState = {
 	currentInputValue?: string;
-	nodeList?: string[];
+	hintList?: IArrayData[];
 }

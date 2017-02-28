@@ -10,24 +10,7 @@
     border-radius: 8px;
     outline:none;
 }
-.nodeList{
-	position: relative;
-    bottom: 28px;
-	width: 550px;
-    font-size: 24px;
-    padding-left: 15px;
-    border: 1px solid #024e6a;
-    border-radius: 8px
-}
-.addNode {
-	position: relative;
-    bottom: 38px;
-    left: 568px;
-    color: #fff;
-    background: rgb(212,75,56);
-    padding: 10px 17px;
-    border-radius: 8px;
-}
+
 .hintList{
 	position: absolute;
     top: 110px;
@@ -40,4 +23,14 @@
 }
 .hintList > div {
     padding: 5px 10px
+}
+
+.spinner {
+    position: relative;
+    left: 527px;
+    top: -40px;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url('../img/spinner.gif');
 }

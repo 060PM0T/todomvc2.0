@@ -1,7 +1,12 @@
 export interface IArrayData {
   name: string
 }
-export const arrayData = [
+export const arrayState = [
+  {
+    "name": "Совпадений не найденно"
+  }
+]
+const arrayData = [
   {
     "name": "Turkey"
   },
@@ -213,3 +218,11 @@ export const arrayData = [
     "name": "Peru"
   }
 ]
+
+function sort(a, b) {
+  if (a.name > b.name) return 1;
+  if (a.name < b.name) return -1;
+}
+let a, b;
+arrayData.sort(sort);
+export {arrayData};

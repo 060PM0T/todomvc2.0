@@ -1,4 +1,4 @@
-import { bindActionCreators } from 'redux'
+import { bindActionCreators } from 'redux';
 import { Dispatch } from 'redux';
 import * as React from 'react';
 import { connect } from 'react-redux';
@@ -13,8 +13,7 @@ class App extends React.Component<void, void> {
           <SearchInput/>
     	</div>
     )
-  }
-}
+  };
+};
 
-
-export default App
+export default App;
